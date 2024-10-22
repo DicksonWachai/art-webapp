@@ -1,0 +1,18 @@
+/* src/Navbar.css */
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-item {
+  margin: 0 15px; /* Adjust the margin as needed */
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
